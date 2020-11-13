@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("ВАСЯ УЧИ ГИТ!!!");
         MainChars we = new MainChars("мы");
         WallOpening wallOpeningFirst = new WallOpening("проём в стене.", SubjectType.ARCHED, 6, 10);
         Action foundWallOpening = new Action(we.getName(), "отыскали", "В результате", wallOpeningFirst.getName());
